@@ -3,12 +3,12 @@ markdown: rdiscount
 permalink: /:year/:month/:day/:title/
 timezone: Asia/Shanghai
 
-home: http://hattoriheiji-snippet.github.io/
-demo: http://hattoriheiji-snippet.github.io/
-base: http://hattoriheiji-snippet.github.io/
+home: http://hattoriheiji-snippet.github.io/hattoriheiji-snippet/
+demo: http://hattoriheiji-snippet.github.io/hattoriheiji-snippet/
+base: http://hattoriheiji-snippet.github.io/hattoriheiji-snippet/
 weibo: http://weibo.com/173248656
-edit_path: http://hattoriheiji-snippet.github.io/snippets/edit/gh-pages
-new_path: http://hattoriheiji-snippet.github.io/snippets/new/gh-pages/snippets
+edit_path: http://hattoriheiji-snippet.github.io/hattoriheiji-snippet/snippets/edit/gh-pages
+new_path: http://hattoriheiji-snippet.github.io/hattoriheiji-snippet/snippets/new/gh-pages/snippets
 author: 小胡子哥
 author_en: Barret Lee
 email: barret.china@gmail.com
