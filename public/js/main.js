@@ -21,8 +21,6 @@ var Snippet = {
   init: function(){
     this.storeData();
     this.bind();
-    this.duoshuo();
-    this.tongji();
   },
   storeData: function(){
     var store = {};
@@ -278,26 +276,6 @@ var Snippet = {
     } else {
       progress.style.opacity = "1";
     }
-  },
-  tongji: function(){
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?58aefbf3de3372645a3e8796d7601fee";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  },
-  duoshuo: function(){
-    window.duoshuoQuery = {short_name:"barretlee"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = 'http://static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
   }
 };
 
